@@ -1,6 +1,29 @@
 .footer{
-  border: 1px solid red;
+  // border: 1px solid red;
   background: var(--darkblue);
   color: var(--white);
-  // Quedo en el 2:26
+  padding: 2em 0;
+  text-align: center;
+  svg{
+    display: block;
+    margin: auto;
+    margin-bottom: 2em;
+  }
+  &__link{
+    display: block;
+    color: var(--gray);
+    text-decoration: none;
+    margin-bottom: 2em;
+  }
+  &__social{
+    display: grid;
+    grid-template-columns: repeat(5, 25px);
+    grid-column-gap: 1em;
+    justify-content: center;
+    margin: 2.5em 0;
+  }
+  &__copyright{
+    color: var(--grayblue);
+    margin-top: 2.5em;
+  }
 }
